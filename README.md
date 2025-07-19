@@ -1,3 +1,90 @@
+ 🎵 Music Company Website
+
+A modern and interactive music courses platform built with **Next.js**, **Tailwind CSS**, and **Aceternity UI** components.
+
+## ✨ Features
+
+- 🎸 Browse beginner to advanced music courses
+- 🎹 Interactive 3D cards using Aceternity UI
+- 🎧 Responsive design
+- 📸 Image-based course showcase
+- 🔥 Clean, modern dark mode support
+
+---
+
+## 🚀 Technologies Used
+
+- **Next.js 14**
+- **Tailwind CSS**
+- **TypeScript**
+- **Aceternity UI**
+- **React 3D Card**
+- **Custom JSON Data**
+
+---
+
+## 📦 Folder Stru
+
+
+music-company/
+│
+├── public/
+│ └── courses/ # All course images (e.g., Guitar.jpg, Piano.jpg)
+│
+├── src/
+│ ├── components/
+│ │ └── ui/
+│ │ └── 3d-card.tsx # Aceternity UI 3D Card component
+│ ├── app/
+│ │ └── courses/
+│ │ └── page.tsx # Courses listing page
+│
+├── data/
+│ └── music_company.json # Course data used in UI
+│
+├── README.md
+
+
+---
+
+## 🧩 Aceternity UI Setup
+
+This project uses [Aceternity UI](https://ui.aceternity.com) for modern UI animations and 3D card components.
+
+### How I Used It:
+
+- Used `CardContainer`, `CardBody`, and `CardItem` from `@/components/ui/3d-card`
+- Included 3D hover effect and `translateZ` animations
+- Imported Tailwind + blur for visual effect
+
+> To customize, edit `3d-card.tsx` inside `components/ui`.
+
+---
+
+## 🛠️ How to Run the Project Locally
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/music-company.git
+cd music-company
+
+2. Install Dependencies
+
+npm install
+
+3. Run Development Server
+
+npm run dev
+
+Visit: http://localhost:3000
+🔐 Author
+
+    👤 Muhammad Kaleem
+
+    📧 kaleemburhan7@gmail.com
+
+    🔗 GitHub Profile
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
