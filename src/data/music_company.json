@@ -1,0 +1,61 @@
+{"courses":[
+
+  {
+    "id": 1,
+    "name": "Beginner Guitar Course",
+    "title": "Learn Guitar from Scratch",
+    "description": "This course is designed for beginners who want to start playing the guitar. You'll learn chords, strumming patterns, and simple songs.",
+    "price": 49.99,
+    "duration": "6 weeks",
+    "level": "Beginner",
+    "instructor": "John Smith",
+    "image":"/courses/Beatsjpg.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Piano Essentials",
+    "title": "Master Piano Basics",
+    "description": "Start your piano journey with this comprehensive course covering scales, chords, and basic music theory.",
+    "price": 59.99,
+    "duration": "8 weeks",
+    "level": "Beginner",
+    "instructor": "Emma Johnson",
+    "image":"/courses/Paino.jpg"
+
+  },
+  {
+    "id": 3,
+    "name": "Advanced Music Theory",
+    "title": "Deep Dive into Harmony and Composition",
+    "description": "Explore advanced concepts in music theory including chord progressions, modes, and songwriting techniques.",
+    "price": 89.99,
+    "duration": "10 weeks",
+    "level": "Advanced",
+    "instructor": "Dr. Alan Davis" ,
+    "image":"/courses/haramony.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Music Production with FL Studio",
+    "title": "Create Beats and Tracks Like a Pro",
+    "description": "Learn how to use FL Studio for music production. This course covers beat making, mixing, and exporting your own music.",
+    "price": 74.99,
+    "duration": "7 weeks",
+    "level": "Intermediate",
+    "instructor": "Samantha Lee",
+    "image":"/courses/guitar.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Vocal Training Bootcamp",
+    "title": "Improve Your Voice and Singing Technique",
+    "description": "Enhance your vocal range, tone, and breathing techniques with this professional vocal training course.",
+    "price": 64.99,
+    "duration": "5 weeks",
+    "level": "All Levels",
+    "instructor": "Mark Rivera",
+    "image":"/courses/singing.jpg"
+  }
+]
+
+}
